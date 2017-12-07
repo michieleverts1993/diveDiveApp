@@ -9,11 +9,8 @@
 /* Begin PBXBuildFile section */
 		05C1A5FBC79EF49A06EC68F1 /* Pods_diveDiveApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D0804F6449A0A8BD6628DC /* Pods_diveDiveApp.framework */; };
 		951F33641F9F96760049D4CB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 951F33631F9F96760049D4CB /* GoogleService-Info.plist */; };
-		951F33651FA089D40049D4CB /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 953D804E1F9F4172006DAB78 /* MainTableViewCell.xib */; };
 		953D804C1F9F40F7006DAB78 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953D804A1F9F40F7006DAB78 /* DetailTableViewCell.swift */; };
 		953D804D1F9F40F7006DAB78 /* DetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 953D804B1F9F40F7006DAB78 /* DetailTableViewCell.xib */; };
-		953D80501F9F4172006DAB78 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953D804F1F9F4172006DAB78 /* MainTableViewCell.swift */; };
-		953D80541F9F4B62006DAB78 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953D80531F9F4B62006DAB78 /* DetailTableViewController.swift */; };
 		953D80561F9F4BA0006DAB78 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953D80551F9F4BA0006DAB78 /* MainTableViewController.swift */; };
 		953D80591F9F4C7C006DAB78 /* DiveAppService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953D80581F9F4C7C006DAB78 /* DiveAppService.swift */; };
 		953D805C1F9F4CA3006DAB78 /* structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953D805B1F9F4CA3006DAB78 /* structures.swift */; };
@@ -23,15 +20,15 @@
 		95571C541F9F39A2005CAB59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95571C531F9F39A2005CAB59 /* Assets.xcassets */; };
 		95571C571F9F39A2005CAB59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95571C551F9F39A2005CAB59 /* LaunchScreen.storyboard */; };
 		955A80E71FA1ED70002778E1 /* CustmView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 955A80E61FA1ED70002778E1 /* CustmView.xib */; };
+		95D79EA91FA32D2900BE338F /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D79EA81FA32D2800BE338F /* DetailTableViewController.swift */; };
+		95D79EAC1FA32D3900BE338F /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D79EAA1FA32D3900BE338F /* MainTableViewCell.swift */; };
+		95D79EAD1FA32D3900BE338F /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95D79EAB1FA32D3900BE338F /* MainTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		951F33631F9F96760049D4CB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		953D804A1F9F40F7006DAB78 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
 		953D804B1F9F40F7006DAB78 /* DetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailTableViewCell.xib; sourceTree = "<group>"; };
-		953D804E1F9F4172006DAB78 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainTableViewCell.xib; path = /Users/michieleverts/Desktop/Apps/diveDiveApp/diveDiveApp/customCells/MainTableViewCell.xib; sourceTree = "<absolute>"; };
-		953D804F1F9F4172006DAB78 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainTableViewCell.swift; path = /Users/michieleverts/Desktop/Apps/diveDiveApp/diveDiveApp/customCells/MainTableViewCell.swift; sourceTree = "<absolute>"; };
-		953D80531F9F4B62006DAB78 /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailTableViewController.swift; path = /Users/michieleverts/Desktop/Apps/diveDiveApp/diveDiveApp/DetailTableViewController.swift; sourceTree = "<absolute>"; };
 		953D80551F9F4BA0006DAB78 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		953D80581F9F4C7C006DAB78 /* DiveAppService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiveAppService.swift; sourceTree = "<group>"; };
 		953D805B1F9F4CA3006DAB78 /* structures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = structures.swift; sourceTree = "<group>"; };
@@ -43,6 +40,9 @@
 		95571C561F9F39A2005CAB59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95571C581F9F39A2005CAB59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		955A80E61FA1ED70002778E1 /* CustmView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustmView.xib; sourceTree = "<group>"; };
+		95D79EA81FA32D2800BE338F /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		95D79EAA1FA32D3900BE338F /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		95D79EAB1FA32D3900BE338F /* MainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
 		96D0804F6449A0A8BD6628DC /* Pods_diveDiveApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_diveDiveApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDEC118B7FFC1D188595CD05 /* Pods-diveDiveApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-diveDiveApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-diveDiveApp/Pods-diveDiveApp.release.xcconfig"; sourceTree = "<group>"; };
 		F238B57904029FF36036F43A /* Pods-diveDiveApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-diveDiveApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-diveDiveApp/Pods-diveDiveApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -80,8 +80,8 @@
 		953D80491F9F3EFD006DAB78 /* customCells */ = {
 			isa = PBXGroup;
 			children = (
-				953D804F1F9F4172006DAB78 /* MainTableViewCell.swift */,
-				953D804E1F9F4172006DAB78 /* MainTableViewCell.xib */,
+				95D79EAA1FA32D3900BE338F /* MainTableViewCell.swift */,
+				95D79EAB1FA32D3900BE338F /* MainTableViewCell.xib */,
 				953D804A1F9F40F7006DAB78 /* DetailTableViewCell.swift */,
 				953D804B1F9F40F7006DAB78 /* DetailTableViewCell.xib */,
 				953D80571F9F4C32006DAB78 /* dataLayers */,
@@ -131,7 +131,7 @@
 				953D80491F9F3EFD006DAB78 /* customCells */,
 				95571C501F9F39A2005CAB59 /* Main.storyboard */,
 				95571C551F9F39A2005CAB59 /* LaunchScreen.storyboard */,
-				953D80531F9F4B62006DAB78 /* DetailTableViewController.swift */,
+				95D79EA81FA32D2800BE338F /* DetailTableViewController.swift */,
 				953D80551F9F4BA0006DAB78 /* MainTableViewController.swift */,
 				95571C531F9F39A2005CAB59 /* Assets.xcassets */,
 				951F33631F9F96760049D4CB /* GoogleService-Info.plist */,
@@ -204,11 +204,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				951F33651FA089D40049D4CB /* MainTableViewCell.xib in Resources */,
 				95571C571F9F39A2005CAB59 /* LaunchScreen.storyboard in Resources */,
 				953D804D1F9F40F7006DAB78 /* DetailTableViewCell.xib in Resources */,
 				955A80E71FA1ED70002778E1 /* CustmView.xib in Resources */,
 				951F33641F9F96760049D4CB /* GoogleService-Info.plist in Resources */,
+				95D79EAD1FA32D3900BE338F /* MainTableViewCell.xib in Resources */,
 				95571C541F9F39A2005CAB59 /* Assets.xcassets in Resources */,
 				95571C521F9F39A2005CAB59 /* Main.storyboard in Resources */,
 			);
@@ -282,10 +282,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				953D805C1F9F4CA3006DAB78 /* structures.swift in Sources */,
-				953D80541F9F4B62006DAB78 /* DetailTableViewController.swift in Sources */,
 				953D804C1F9F40F7006DAB78 /* DetailTableViewCell.swift in Sources */,
-				953D80501F9F4172006DAB78 /* MainTableViewCell.swift in Sources */,
+				95D79EAC1FA32D3900BE338F /* MainTableViewCell.swift in Sources */,
 				953D80591F9F4C7C006DAB78 /* DiveAppService.swift in Sources */,
+				95D79EA91FA32D2900BE338F /* DetailTableViewController.swift in Sources */,
 				953D805E1F9F4E69006DAB78 /* DiveAppProperties.swift in Sources */,
 				953D80561F9F4BA0006DAB78 /* MainTableViewController.swift in Sources */,
 				95571C4D1F9F39A2005CAB59 /* AppDelegate.swift in Sources */,

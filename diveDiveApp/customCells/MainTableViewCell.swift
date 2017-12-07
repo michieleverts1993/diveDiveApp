@@ -6,8 +6,6 @@
 //
 
 import UIKit
-import Kingfisher
-
 class MainTableViewCell: UITableViewCell {
 
     @IBOutlet var mainLabel: UILabel!
